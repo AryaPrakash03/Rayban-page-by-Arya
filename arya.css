@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+
+
+}
+
+#nav img{
+    width: 150px;
+height: 90px;
+padding: 0px 0px;
+
+}
+
+#nleft, #nright {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#nleft a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: white;
+    
+
+}
+
+#nright a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: white;
+    
+
+}
+
+#hero{
+position: absolute;
+top: 53%;
+left: 0;   
+transform: translate(0%, -50%); 
+display: flex; 
+justify-content: space-between;   
+width: 100%;
+}
+
+#heroleft{
+    margin-top: 100px;
+    min-width: 50%;
+    
+}
+
+#heroleft .elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+    
+    
+}
+
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+
+}
+
+#heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+
+
+#heroright{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 20%;
+    color: white;
+    
+}
+
+#heroright p{
+
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#heroright #imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1542596594-649edbc13630?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#heroright p:nth-child(3){
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size:16px;
+    text-align: center;
+    font-family: "kehlani";
+}
+
+#heroright p:nth-child(1){
+    font-size: 22px;
+    text-align: 100%;
+    font-weight: 900;
+    margin-top: 30%;
+    font-style: italic;
+}
+
+#heroright p:nth-child(2){
+    font-size: 28px;
+    text-align: center;
+    font-weight: 90;
+    margin-top: 0%;
+    font-style: italic;
+}
+
+#heroright p:nth-child(4){
+    font-size: 16px;
+    text-align: center;
+    font-weight: 90;
+    margin-top: 0%;
+    font-family: "kehlani";
+    margin-bottom: 10px;
+}
